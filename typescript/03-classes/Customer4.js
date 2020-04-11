@@ -1,7 +1,11 @@
-var Customer3 = /** @class */ (function () {
-    function Customer3() {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Customer4 = /** @class */ (function () {
+    function Customer4(_firstName, _lastName) {
+        this._firstName = _firstName;
+        this._lastName = _lastName;
     }
-    Object.defineProperty(Customer3.prototype, "firstName", {
+    Object.defineProperty(Customer4.prototype, "firstName", {
         get: function () {
             return this._firstName;
         },
@@ -11,7 +15,7 @@ var Customer3 = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(Customer3.prototype, "lastName", {
+    Object.defineProperty(Customer4.prototype, "lastName", {
         get: function () {
             return this._lastName;
         },
@@ -21,9 +25,6 @@ var Customer3 = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    return Customer3;
+    return Customer4;
 }());
-var myCustomer3 = new Customer3();
-myCustomer3.firstName = "Miriam";
-myCustomer3.lastName = "LeMay";
-console.log("hello:   " + myCustomer3.firstName + " " + myCustomer3.lastName + "  ");
+exports.Customer4 = Customer4;
