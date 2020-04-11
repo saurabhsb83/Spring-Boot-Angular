@@ -1,0 +1,3 @@
+PS D:\OneDrive\Spring-Full-Stack-App\typescript\01-helloworld> tsc --target ES5 --noEmitOnError Customer3.ts
+PS D:\OneDrive\Spring-Full-Stack-App\typescript\01-helloworld> node .\Customer3.js    
+hello:   Miriam LeMay 
